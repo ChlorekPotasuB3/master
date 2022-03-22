@@ -7,4 +7,5 @@ Below are our sales predictions
 for this customer.
 """)
 
-st.write(m.run(window=15))
+window = st.slider("Forecsat wind")
+st.write(m.run(window))
